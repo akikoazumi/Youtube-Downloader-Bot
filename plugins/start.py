@@ -9,8 +9,7 @@ async def start(client, message):
         [InlineKeyboardButton(
             "panduan bot", url="https://telegra.ph/Panduan-bot-YouTube-06-21")]
     ])
-    welcomed = f"Hai <b>{message.from_user.first_name}</b>\n/saya adalah bot pengunduh video Youtube Cukup kirim tautan video")
-
+    welcomed = f"Hai <b>{message.from_user.first_name}</b>\n/saya adalah bot pengunduh video Youtube Cukup kirim tautan video"
 
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
