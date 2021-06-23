@@ -9,7 +9,7 @@ async def start(client, message):
      ])
 
 
-    welcomed = f"Hai <b>{message.from_user.first_name}</b>\nsaya adalah bot pengunduh video Youtube Cukup kirim tautan video"
+    welcomed = f"Hai <b>{message.from_user.first_name}</b>\nsaya adalah bot pengunduh video Youtube Cukup kirim tautan video saja"
 
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
