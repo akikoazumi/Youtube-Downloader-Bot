@@ -9,7 +9,7 @@ async def start(client, message):
      ])
 
 
-    welcomed = f"Hi 👋 <b>{message.from_user.first_name}</b>\i am a Youtube downloader bot! just send youtube link"
+    welcomed = f"Hi 👋 <b>{message.from_user.first_name}</b>I'm a youtube downloader bot! just send youtube link"
 
 
 
